@@ -9,7 +9,7 @@ import dayGridPlugin from "@fullcalendar/daygrid";
 import "./custom.css";
 
 function App() {
-  const events = [{ title: "today's event", date: new Date() }];
+  const events = [{ title: "Hello Calendar", date: new Date() }];
   return (
       <div className="App">
         <FullCalendar
