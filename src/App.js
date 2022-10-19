@@ -3,15 +3,15 @@ import React from 'react';
 import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from "@fullcalendar/daygrid";
 
-//import "@fullcalendar/core/main.css";
-//import "@fullcalendar/daygrid/main.css";
-
 import "./custom.css";
+import Editor from './EditorWithUseQuill';
 
 function App() {
   const events = [{ title: "Hello Calendar :)", date: new Date() }];
   return (
       <div className="App">
+         <Editor placeholder={'Write something...'} />
+
         <FullCalendar
           defaultView="dayGridMonth"
           header={{

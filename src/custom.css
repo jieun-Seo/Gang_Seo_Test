@@ -1,4 +1,10 @@
 /* override day number color and size */
+
+.applyStyle{
+  width: 200px;
+  height: 150px;
+}
+
 .fc-day-number {
     font-size: 1.5em;
     color: #e520e5;
@@ -8,4 +14,9 @@
   .fc-day-header {
     font-size: 1.5em;
     color: #5811e5;
+  }
+
+  .calendarStyle{
+    width: 400px;
+    height: 300px;
   }
